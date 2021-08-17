@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+
+    font-family: 'Bold', sans-serif;    
+}
+
+
+/*header part start*/
+
+header{
+     background-image: url(../img/banner2.png);
+    background-repeat: no-repeat;
+     height: 900px;
+     
+}
+
+.container{
+
+}
+
+
+.img-center{
+    padding:30px;
+
+    margin-top: 20px;
+}
+
+
+nav{
+  
+}
+
+nav ul{
+   text-decoration: none;
+   list-style: none;
+}
+
+nav ul li{
+
+    display:inline-block;
+    color: #b7b8b8;
+    margin: 47px 29px;
+}
+
+nav ul li a{
+    text-decoration: none;
+     color: #b7b8b8;
+}
+
+.header-content{
+
+}
+
+.header-content h2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 12px 26px;
+    width: 100%;
+    margin-top: 98px;
+    
+}
+
+.header-content p{
+    color: white;
+    font-size: 15px;
+    padding-top: 18px;
+
+}
+
+.header-content span{
+     border-bottom: 4px solid white;
+    width: 5%;
+    display: block;
+    margin: 57px 0px
+}
+
+.btn{
+     border: 4px solid white;
+    padding: 14px 90px;
+    display: block;
+    font-size: 13px;
+    color: #b7b8b8;
+}
+
+
+/*header part end*/
+
+
+/*middle part start*/
+
+section{
+  
+}
+
+.discribtion{
+         background-color:#f6f6f6 ;
+   height: 525px;
+}
+
+h2{
+    color: #333333;
+    padding-top: 200px;
+    font-family: extra-bold;
+
+}
+
+span{
+      border-bottom: 4px solid #888888;
+    width: 5%;
+    display: block;
+    margin: 57px 0px
+}
+
+
+p{
+        
+    color: #888888;
+    font-size: 13px;
+   margin-top: 60px
+}
+
+.parent{
+   position: relative;
+  
+
+
+}
+
+.parent img{
+         margin-top: 172px;
+         width: 160%;
+         height: 410px;
+}
+
+.child{
+     position: absolute;
+    top: 30%;
+    left: 65%;
+}
+
+.child img{
+         height: 150px;
+         width: 185%;
+        margin-top: 50px;
+}
+
+/*middle part end*/
+
+
+
+/*lower part start*/
+
+.details{
+    background-color: #28282e;
+}
+
+
+.details h2{
+    color: white;
+}
+
+.details span{
+     border-bottom: 4px solid #888888;
+    width: 5%;
+    display: block;
+    margin: 20px 0px
+}
+
+.details p{
+              padding-right: 160px;
+    font-size: 20px;
+
+}
+
+.btn2{
+
+    padding: 14px;
+    color: white;
+    border-color: white;
+    font-size: 12px;
+    margin-top: 50px;
+    width: 25%;
+    margin-bottom: 145px
+
+}
+
+
+.cars img{
+    margin-top: 275px;
+    width: 140%;
+    height: 27%;
+}
+
+
+/*lower part end*/
+
+
+
+
+/*footer part start*/
+ section{
+
+ }
+
+
+ .foot{
+        background-color: #ef4035;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 50px;
+
+   }
+    
+     
+
+
+
+/*footer part end*/
+
+
+
+
+
+/*media query*/
+
+
+
+/*Mobile device start*/
+
+@media only screen and (min-width: 601px){
+
+}
+
+
+/*Mobile device end*/
+
+
+/*small device */
+
+@media (min-width: 602px) and (max-width:768px){
+
+.discribtion {
+    background-color: #f6f6f6;
+    height: 840px;
+
+}
+
+
+.parent img {
+    margin-top: 60px;
+    width: 114%;
+    height: 330px;
+}
+
+.child img{
+
+    height: 145px;
+    width: 220px;
+    margin-top: 5px;
+}
+
+.cars img {
+        margin-top: 115px;
+    width: 100%;
+    height: 40%;
+}
+
+.btn2 {
+     margin-bottom: 0px;
+
+}
+
+/*small device */
+
+/*Medium device start*/
+
+@media (min-width: 768.01px) and (max-width:1199px){ 
+
+
+body{
+    width: 125%;
+}
+
+nav ul li {
+    margin: 47px 5px;
+}
+
+.img-center{
+         margin-top: 34px;
+    height: 45%;
+    width: 99%;
+    padding: 14px;
+}
+
+
+.header-content h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 12px 26px;
+    width: 125%;
+    margin-top: 98px;
+}
+
+.discribtion {
+    background-color: #f6f6f6;
+    height: 590px;
+}
+
+.parent img {
+    margin-top: 174px;
+    width: 150%;
+    height: 463px;
+}
+
+.child img{
+    margin-top: 98px;
+    width: 240%;
+    height: 16%;
+}
+
+
+.cars img {
+    margin-top: 400px;
+    width: 140%;
+    height: 20%;
+}
+
+
+.btn2 {
+    margin-bottom: 32px;
+    width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/*Medium device end*/
+
+
+/*large device start*/
+
+@media (min-width: 1200.01px){
+
+}
+
+/*large device end*/
+
+

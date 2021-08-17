@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+
+    font-family: 'Bold', sans-serif;    
+}
+
+
+/*header part start*/
+
+header{
+     
+      
+}
+
+.container{
+
+}
+
+
+.img-center{
+    padding:30px;
+
+    margin-top: 20px;
+}
+
+
+nav{
+  
+}
+
+nav ul{
+   text-decoration: none;
+   list-style: none;
+}
+
+nav ul li{
+
+    display:inline-block;
+    color: #b7b8b8;
+    margin: 47px 29px;
+}
+
+nav ul li a{
+    text-decoration: none;
+     color: #b7b8b8;
+}
+
+span{
+     color:#e4e4e4;
+    border-bottom: 20px solid;
+    width: 100%;
+    display: block;
+}
+
+
+/*header part end*/
+
+
+/*middle part start*/
+
+section{
+     background-color: #ee4a3f;
+}
+
+.middle{
+
+}
+
+.middle h2{
+   color: white;
+       padding-top: 94px;
+}
+
+.details{
+
+}
+
+.details img{
+        padding-top: 40px;
+}
+
+.details p{
+        color: white;
+    font-size: 18px;
+    padding-top: 45px;
+}
+
+.picture{
+
+}
+
+.picture img{
+        margin: 32px 110px;
+
+}
+
+.form{
+
+}
+
+.form h5{
+        color: white;
+    padding: 7px 0px;
+    font-size: 13px;
+}
+
+.form-control{
+          
+         background-color: #ff6258;
+    width: 100%;
+    border-radius: 0px;
+    border: none;
+}
+
+
+.btn{
+         background-color: #ff6258;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.btnn{
+          background: transparent;
+    color: white;
+    border: none;
+    top: 90%;
+    position: absolute;
+}
+
+/*middle part end*/
+
+
+/*footer part start*/
+ section{
+
+ }
+
+
+ .foot{
+        background-color: #ef4035;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 50px;
+
+   }
+    
+     
+
+
+
+/*footer part end*/
+
+
+
+
+/*media query*/
+
+
+
+/*Mobile device start*/
+
+@media only screen and (min-width: 601px){
+
+}
+
+
+/*Mobile device end*/
+
+
+/*small device */
+
+@media (min-width: 602px) and (max-width:768px){
+
+ nav ul li {
+    display: inline-block;
+    color: #b7b8b8;
+    margin: 25px 5px;
+}   
+
+.details img {
+
+    width: 80%;
+
+}
+
+.btnn {
+    background: transparent;
+    color: white;
+    border: none;
+    top: 310%;
+    position: absolute;
+}
+
+/*small device */
+
+/*Medium device start*/
+
+@media (min-width: 768.01px) and (max-width:1199px){
+
+    nav ul li {
+    display: inline-block;
+    color: #b7b8b8;
+    margin: 47px 5px;
+} 
+
+}
+
+/*Medium device end*/
+
+
+/*large device start*/
+
+@media (min-width: 1200.01px){
+
+}
+
+/*large device end*/

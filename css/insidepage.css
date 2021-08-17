@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+
+    font-family: 'Bold', sans-serif;    
+}
+
+
+/*header part start*/
+
+header{
+     
+      
+}
+
+.container{
+
+}
+
+
+.img-center{
+    padding:30px;
+
+    margin-top: 20px;
+}
+
+
+nav{
+  
+}
+
+nav ul{
+   text-decoration: none;
+   list-style: none;
+}
+
+nav ul li{
+
+    display:inline-block;
+    color: #b7b8b8;
+    margin: 47px 29px;
+}
+
+nav ul li a{
+    text-decoration: none;
+     color: #b7b8b8;
+}
+
+span{
+     color:#e4e4e4;
+    border-bottom: 20px solid;
+    width: 100%;
+    display: block;
+}
+
+
+/*header part end*/
+
+
+
+/*middle part start*/
+
+section{
+
+}
+
+.one{
+
+}
+
+.one h2{  
+
+    margin: 55px 0px;
+    
+}
+
+.one p{
+        font-size: 15px;
+    width: 85%;
+}
+
+
+.two{
+
+}
+
+.two img{
+    position: relative;
+        margin-top: 7%;
+}
+
+
+.two p{ 
+        font-size: 15px;
+    width: 85%;
+    margin-top: 10%;
+    
+}
+
+
+.child{
+
+}
+
+.child img{
+       position: absolute;
+    top: 10%;
+    left: 59%;
+
+}
+
+
+/*middle part end*/
+
+
+/*footer part start*/
+ section{
+
+ }
+
+
+ .foot{
+        background-color: #ef4035;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 50px;
+
+   }
+    
+     
+
+
+
+/*footer part end*/
+
+
+/*media query*/
+
+
+
+/*Mobile device start*/
+
+@media only screen and (min-width: 601px){
+
+}
+
+
+/*Mobile device end*/
+
+
+/*small device */
+
+@media (min-width: 602px) and (max-width:768px){
+
+nav ul li{
+    margin: 27px 10px;
+}
+
+.child img {
+    position: absolute;
+    top: 175%;
+    left: 26%;
+    height: 30%;
+}
+
+/*small device */
+
+
+/*Medium device start*/
+
+@media (min-width: 769px) and (max-width:1199px){ 
+ 
+nav ul li{
+    margin: 43px 10px;
+}
+
+.img-center{
+
+}
+
+}
+
+/*Medium device end*/
+
+
+/*large device start*/
+
+@media (min-width: 1200.01px){
+
+}
+
+/*large device end*/    
